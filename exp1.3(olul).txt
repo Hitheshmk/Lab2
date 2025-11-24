@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Frames</title>
+<frameset cols="20%, *">
+<frame src="course.html">
+<frame src="welcome.html">
+</frame set>
+</html>
+
+
+
+<html>
+<head>
+<title>Course</title>
+</head>
+<body>
+<h1>List of courses</h1>
+<ul>
+<li><a href="b.html">BCA</a></li>
+</ul>
+</body>
+</html>
+
+
+
+<html>
+<head>
+<title>Welcome</title>
+</head>
+<body>
+<h1>Welcome to YCM</h1>
+</body>
+</html>
+
+
+
+
+<html>
+<head>
+<title>program 3</title>
+</head>
+<body>
+<h3>About BCA</h3>
+<p>BCA is an undergraduation computer application degree, it provides with opportunity to pursue further carrier</p>
+<h3>Eligibility</h3>
+<ul>
+<li>Candidates who has sucessfully completed PUC</li>
+<li>3 years diploma after SSLC in Computer science or equivalent courses</li>
+</ul>
+<h3>Course duration</h3>
+<ol>
+<li>3 years program split into 6 semesters</li>
+<li>Course duration permited to 3 years from the date of admission as per university rules</li>
+</ol>
+</body>
+</html>
