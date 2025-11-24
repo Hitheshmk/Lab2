@@ -1,0 +1,63 @@
+<html>
+<haed>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>External CSS</h1>
+<p>External CSS contains separate CSS file which contains only style property with the help of tag attributes.CSS property written in a separate file with .css extension and should be linked to the html document using link tag</p>
+</body>
+</html>
+
+
+body{
+background-color:powderblue;
+}
+h1{
+	color:blue;
+	text-align:center;
+	font-size:50px;
+	font-style:bold;
+}
+p{
+	color:green;
+	font-style:bold;
+	font-size:20px;
+}
+
+
+
+
+<html>
+<head>
+<style>
+body{
+	background-color:powderblue;
+}
+h1{
+	color:blue;
+	text-align:center;
+}
+p{
+	color:green;
+	text-align:center;
+}
+</style>
+<body>
+<h1>Internal or Embedded CSS</h1>
+<p>This can be used when a single html document must be styled uniquely.The CSS rule set should be within the html file in the head section i.e The CSS is embedded within the html file</p>
+</body>
+</html>
+
+
+
+
+
+<html>
+<head>
+<title>Inline CSS</title>
+</head>
+<body bgcolor="cyan">
+<p style="color:#009900;font-size:50px;font-style:italic;text-align:center;">
+Inline CSS contains the CSS property in the body section attached with element is known as inline CSS.This kind of style is specified within on html tag using style attribute</p>
+</body>
+</html>
