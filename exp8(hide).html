@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Hide and Show Image</title>
+<style>
+#image {
+width: 300px;
+height: 350px;
+transition: opacity 0.3s;
+}
+</style>
+</head>
+<body>
+<h1>Click to Hide or Show the Image</h1>
+<!-- Image element-->
+<img id="image" src="img1.jpg" alt="Sample Image">
+<!-- Button to trigger the hide/show functionality-->
+<button onclick="toggleImage()">Hide/Show Image</button>
+<script>
+function toggleImage() {
+const image = document.getElementById("image");
+if (image.style.display === "none") {
+image.style.display = "block";
+} else {
+image.style.display = "none";
+}
+}
+</script>
+</body>
+</html>
